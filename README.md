@@ -70,7 +70,7 @@ OPENAI_TEMPERATURE=0.9
 OPENAI_VERBOSE=true
 
 # Guardrails AI
-GUARDRAILS_AI_API_KEY=your_guardrails_ai_api_key
+# GUARDRAILS_AI_API_KEY=your_guardrails_ai_api_key
 ```
 
 `your_api_key` represents your OpenAI API Key, while `your_model_name` denotes the model name of OpenAI's GPT.  
@@ -79,9 +79,9 @@ This information can be procured from the website listed below.
 
 [https://platform.openai.com/](https://platform.openai.com/)
 
-Also, set your Guardrails AI API Key in `your_guardrails_ai_api_key`. The Guardrails AI API Key can be procured from the website listed below.  
+<!-- Also, set your Guardrails AI API Key in `your_guardrails_ai_api_key`. The Guardrails AI API Key can be procured from the website listed below.  
 
-[https://hub.guardrailsai.com/](https://hub.guardrailsai.com/)
+[https://hub.guardrailsai.com/](https://hub.guardrailsai.com/) -->
 
 4. Placement of `.env` file created in step 3.  
 Position the `.env` file you have created at the specified path below.  

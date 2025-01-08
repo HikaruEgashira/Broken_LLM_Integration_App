@@ -4,10 +4,11 @@ from pydantic_settings import BaseSettings
 class Config(BaseSettings):
     class Config:
         env_file = ".env"
-        env_file_encoding = 'utf-8'
-
+        env_file_encoding = "utf-8"
 
     # Setting.
+
+
 class Settings(Config):
     # MySQL.
     DB_USERNAME: str
@@ -27,7 +28,7 @@ class Settings(Config):
     OPENAI_VERBOSE: bool
 
     # Guardrails AI
-    GUARDRAILS_AI_API_KEY: str
+    # GUARDRAILS_AI_API_KEY: str
 
 
 settings = Settings()

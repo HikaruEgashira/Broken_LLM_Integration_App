@@ -16,7 +16,6 @@ langchain-openai==0.1.5
 openai==1.25.0
 
 # Defense
-guardrails-ai
 presidio-analyzer
 presidio-anonymizer
 nltk
