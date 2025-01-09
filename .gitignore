@@ -1,3 +1,8 @@
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
